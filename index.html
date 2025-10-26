@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Storytelling</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Storytelling</h1>
+    </header>
+    <main>
+        <!-- Story Selection -->
+        <div id="story-selection">
+            <button onclick="loadStory('story1.json')">Adventure in the Forest</button>
+            <button onclick="loadStory('story2.json')">Mystery of the Temple</button>
+            <button onclick="loadStory('story3.json')">Escape from the Haunted Mansion</button>
+            <button onclick="loadStory('story4.json')">Journey to the Lost City</button>
+            <button onclick="loadStory('story5.json')">Adventure in the Farm</button>
+            <button onclick="loadStory('story6.json')">Hiking Trip</button>
+        </div>
+
+        <!-- Story Content -->
+        <div id="story-container" style="display:none;">
+            <p id="story-text">Story will appear here...</p>
+            <img src="" alt="Story scene" id="story-image" style="display:none;">
+            <div id="choices-container"></div>
+            <button id="start-btn" onclick="startStory()">Start Story</button>
+        </div>
+
+        <!-- Controls -->
+        <div id="controls" style="display:none;">
+            <button id="save-btn">Save Progress</button>
+            <button id="load-btn">Resume Progress</button>
+        </div>
+
+        <!-- Upload Story -->
+        <div id="upload-container">
+            <input type="file" id="upload-file" accept=".json">
+            <button id="upload-btn">Upload Story</button>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

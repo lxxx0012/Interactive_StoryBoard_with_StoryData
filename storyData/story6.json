@@ -1,0 +1,41 @@
+{
+    "start": {
+        "text": "You embark on a hiking trip in the mountains. Do you follow the marked trail or take the unbeaten path?",
+        "image": "images/Mountains.jpg",
+        "choices": [
+            { "text": "Follow the marked trail", "next": "trail" },
+            { "text": "Take the unbeaten path", "next": "path" }
+        ]
+    },
+    "trail": {
+        "text": "The trail is scenic but challenging. You reach a viewpoint overlooking the valley.",
+        "image": "images/Trail.jpg",
+        "choices": [
+            { "text": "Rest at the viewpoint", "next": "viewpoint" },
+            { "text": "Continue hiking", "next": "cabin" }
+        ]
+    },
+    "path": {
+        "text": "The path leads you through dense woods. You hear a river nearby. Do you head towards the sound or stay on the path?",
+        "image": "images/Woods.jpg",
+        "choices": [
+            { "text": "Head towards the river", "next": "river" },
+            { "text": "Stay on the path", "next": "start" }
+        ]
+    },
+    "viewpoint": {
+        "text": "The view is breathtaking. You feel a sense of accomplishment and peace.",
+        "image": "images/Viewpoint.jpg",
+        "choices": []
+    },
+    "cabin": {
+        "text": "You find a small cabin. Inside, you meet a fellow hiker who offers you tea and stories.",
+        "image": "images/Cabin.jpg",
+        "choices": []
+    },
+    "river": {
+        "text": "The river is serene, and you find a perfect spot to relax and reflect on your journey.",
+        "image": "images/River.jpg",
+        "choices": []
+    }
+}

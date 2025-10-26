@@ -1,0 +1,36 @@
+{
+    "start": {
+        "text": "You arrive at a peaceful farm. Do you visit the barn or explore the fields?",
+        "image": "images/Farm.jpg",
+        "choices": [
+            { "text": "Visit the barn", "next": "barn" },
+            { "text": "Explore the fields", "next": "fields" }
+        ]
+    },
+    "barn": {
+        "text": "The barn is full of animals. You see an old chest in the corner. Do you open it or leave it?",
+        "image": "images/Barn.jpg",
+        "choices": [
+            { "text": "Open the chest", "next": "chest" },
+            { "text": "Leave it", "next": "start" }
+        ]
+    },
+    "fields": {
+        "text": "The fields stretch endlessly. You spot a scarecrow waving in the wind. Do you approach it or ignore it?",
+        "image": "images/Fields.jpg",
+        "choices": [
+            { "text": "Approach the scarecrow", "next": "scarecrow" },
+            { "text": "Ignore it", "next": "start" }
+        ]
+    },
+    "chest": {
+        "text": "The chest contains old farm tools and a faded journal. The journal reveals the farm's history.",
+        "image": "images/Chest.jpg",
+        "choices": []
+    },
+    "scarecrow": {
+        "text": "The scarecrow seems eerie, but nothing happens. You return to the farm with a story to tell.",
+        "image": "images/Scarecrow.jpg",
+        "choices": []
+    }
+}

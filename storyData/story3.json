@@ -1,0 +1,46 @@
+{
+    "start": {
+        "text": "You find yourself in a dimly lit haunted mansion. Do you enter the grand staircase or investigate the eerie library?",
+        "image": "images/Mansion.jpg",
+        "choices": [
+            { "text": "Enter the grand staircase", "next": "staircase" },
+            { "text": "Investigate the eerie library", "next": "library" }
+        ]
+    },
+    "staircase": {
+        "text": "The staircase creaks with every step. You see two doors: one marked with a glowing rune and another covered in cobwebs. Which one do you choose?",
+        "image": "images/Staircase.jpg",
+        "choices": [
+            { "text": "Open the rune door", "next": "rune" },
+            { "text": "Enter the cobweb room", "next": "cobweb" }
+        ]
+    },
+    "library": {
+        "text": "The library is filled with dusty old books and a faint whisper echoes through the room. Do you search the bookshelves or follow the sound?",
+        "image": "images/Library.jpg",
+        "choices": [
+            { "text": "Search the bookshelves", "next": "bookshelves" },
+            { "text": "Follow the sound", "next": "sound" }
+        ]
+    },
+    "rune": {
+        "text": "The rune door opens to reveal a mysterious artifact glowing with ethereal light. You find a hidden passage leading to the outside.",
+        "image": "images/RuneDoor.jpg",
+        "choices": []
+    },
+    "cobweb": {
+        "text": "The cobweb room houses old, broken furniture and a trapdoor leading to the basement. The adventure grows darker...",
+        "image": "images/CobwebRoom.jpg",
+        "choices": []
+    },
+    "bookshelves": {
+        "text": "You discover a hidden lever behind the books. Pulling it reveals a secret passage out of the mansion.",
+        "image": "images/HiddenLever.jpg",
+        "choices": []
+    },
+    "sound": {
+        "text": "Following the sound, you encounter a ghostly figure. It whispers secrets of the mansion before vanishing.",
+        "image": "images/Ghost.jpg",
+        "choices": []
+    }
+}

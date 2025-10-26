@@ -1,0 +1,41 @@
+{
+    "start": {
+        "text": "You stand before an ancient temple. Do you enter the main hall or explore the side passage?",
+        "image": "images/Mystery of the Temple/temple.jpg",
+        "choices": [
+            { "text": "Enter the main hall", "next": "hall" },
+            { "text": "Explore the side passage", "next": "passage" }
+        ]
+    },
+    "hall": {
+        "text": "The hall is vast and echoing. You spot a strange artifact on a pedestal. Do you approach it or leave?",
+        "image": "images/Mystery of the Temple/hall.jpg",
+        "choices": [
+            { "text": "Approach the artifact", "next": "artifact" },
+            { "text": "Leave the hall", "next": "start" }
+        ]
+    },
+    "passage": {
+        "text": "The passage is dark and narrow. You find a torch on the wall. Do you take it or proceed without it?",
+        "image": "images/Mystery of the Temple/dark passage.jpg",
+        "choices": [
+            { "text": "Take the torch", "next": "torch" },
+            { "text": "Proceed without it", "next": "dark" }
+        ]
+    },
+    "artifact": {
+        "text": "The artifact glows as you approach. A hidden door opens, leading deeper into the temple.",
+        "image": "images/Mystery of the Temple/artifact.jpg",
+        "choices": []
+    },
+    "torch": {
+        "text": "The torch lights the way, and you find ancient carvings on the walls.",
+        "image": "images/Mystery of the Temple/torches.jpg",
+        "choices": []
+    },
+    "dark": {
+        "text": "You stumble in the darkness and find yourself in an unknown chamber.",
+        "image": "images/Mystery of the Temple/dark tunnel.jpg",
+        "choices": []
+    }
+}

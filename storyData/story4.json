@@ -1,0 +1,46 @@
+{
+    "start": {
+        "text": "You embark on a perilous journey to the fabled Lost City. Do you cross the desert or climb the treacherous mountains?",
+        "image": "images/JourneyStart.jpg",
+        "choices": [
+            { "text": "Cross the desert", "next": "desert" },
+            { "text": "Climb the mountains", "next": "mountains" }
+        ]
+    },
+    "desert": {
+        "text": "The desert is vast and scorching. You find an ancient map buried in the sand. Do you follow the map or continue straight?",
+        "image": "images/Desert.jpg",
+        "choices": [
+            { "text": "Follow the map", "next": "oasis" },
+            { "text": "Continue straight", "next": "ruins" }
+        ]
+    },
+    "mountains": {
+        "text": "The mountains are steep and icy. You find a guide willing to help you. Do you trust the guide or proceed alone?",
+        "image": "images/Mountains.jpg",
+        "choices": [
+            { "text": "Trust the guide", "next": "hiddenPath" },
+            { "text": "Proceed alone", "next": "cave" }
+        ]
+    },
+    "oasis": {
+        "text": "The map leads you to an oasis with a shimmering pool. Drinking the water reveals visions of the Lost City.",
+        "image": "images/Oasis.jpg",
+        "choices": []
+    },
+    "ruins": {
+        "text": "Continuing straight, you stumble upon ancient ruins that hold clues about the Lost City's location.",
+        "image": "images/Ruins.jpg",
+        "choices": []
+    },
+    "hiddenPath": {
+        "text": "The guide shows you a hidden path that leads to a majestic gate—the entrance to the Lost City.",
+        "image": "images/HiddenPath.jpg",
+        "choices": []
+    },
+    "cave": {
+        "text": "You find a dark cave filled with glowing crystals. A mysterious artifact lights the way to the Lost City.",
+        "image": "images/CrystalCave.jpg",
+        "choices": []
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "start": {
+        "text": "You wake up in a mysterious forest. Do you explore deeper or stay near the clearing?",
+        "image": "images/Forest.jpg",
+        "choices": [
+            { "text": "Explore deeper", "next": "deeper" },
+            { "text": "Stay near the clearing", "next": "clearing" }
+        ]
+    },
+    "deeper": {
+        "text": "You discover a stream with sparkling water. Do you follow it or rest nearby?",
+        "image": "images/Stream.jpg",
+        "choices": [
+            { "text": "Follow the stream", "next": "waterfall" },
+            { "text": "Rest nearby", "next": "camp" }
+        ]
+    },
+    "clearing": {
+        "text": "You spot a deer grazing peacefully. Suddenly, a rustle comes from the bushes. Do you investigate or run?",
+        "image": "images/Clearing.jpg",
+        "choices": [
+            { "text": "Investigate the noise", "next": "noise" },
+            { "text": "Run back", "next": "start" }
+        ]
+    },
+    "waterfall": {
+        "text": "The stream leads to a stunning waterfall. You find a hidden cave behind it. The adventure continues...",
+        "image": "images/Waterfall.jpg",
+        "choices": []
+    },
+    "camp": {
+        "text": "You decide to set up camp and rest. The forest is calm as the night falls.",
+        "image": "images/Camp.jpg",
+        "choices": []
+    },
+    "noise": {
+        "text": "You find a family of foxes playing. They seem harmless, and you feel at peace.",
+        "image": "images/Foxes.jpg",
+        "choices": []
+    }
+}
